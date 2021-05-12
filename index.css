@@ -1,8 +1,11 @@
 .gameBoard {
   background-color: #c9c9c9;
+  border-color: black;
+  border-width: thin;
   vertical-align: top;
   text-align: center;
   font-size: 40px;
+  border-radius: 1%;
   width: 100px;
   height: 90px;
 }
@@ -10,6 +13,11 @@
   opacity: 100%;
   color: black;
   background-color: #c9c9c9;
+}
+.gameBoard:active {
+  background-color: #c9c9c9;
+  border-right-color: black;
+  border-top-color: black;
 }
 #row0 {
   margin-top: 100px;
