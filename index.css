@@ -1,0 +1,19 @@
+.gameBoard {
+  background-color: #c9c9c9;
+  vertical-align: top;
+  text-align: center;
+  font-size: 40px;
+  width: 100px;
+  height: 90px;
+}
+.gameBoard:disabled {
+  opacity: 100%;
+  color: black;
+  background-color: #c9c9c9;
+}
+#row0 {
+  margin-top: 100px;
+}
+body {
+  background-color: #f57971;
+}
